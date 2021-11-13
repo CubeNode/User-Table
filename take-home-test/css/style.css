@@ -1,0 +1,38 @@
+table, th, td {
+    border-collapse: collapse;
+    padding: 5px;
+    margin: 0;
+}
+
+table {
+    width: 800px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+th {
+    background-color: rgb(46, 48, 50);
+    color: #FFF;
+    border-bottom: 1px solid black;
+}
+
+.user {
+    color: #000;
+}
+
+.user:hover {
+    background-color: rgb(108, 148, 216);
+    color: #FFF;
+}
+
+.active {
+    background-color: rgb(62, 121, 223);
+    color: #FFF;
+    border: 1px solid black;
+}
+
+.posts {
+    background-color: rgb(62, 121, 223);
+    color: #FFF;
+    border: 1px solid black;
+}
